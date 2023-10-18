@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+    background-image: url(./imagenes/fondo1.jpg);
+    background-repeat: no-repeat;
+}
+
+.containerr{
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    max-width: 80%;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    height: 20rem;
+}
+
+
+.logo{
+    padding-right: 20rem;
+}
+
+
+.menu{
+    display: flex;
+    gap: 6rem;
+    padding: 1rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+
+
+.ventanas{
+    font-family: 'HolyFat';
+    font-size: 2.2rem;
+    color: rgb(89, 218, 3);
+}
+
+.ventanas:hover{
+    background-color: rgba(209, 209, 209, 0.56);
+    transition: 1s;
+}
+
+@font-face{
+    font-family: 'HolyFat';
+    src: url('./fuentes/Holyfat.ttf');
+}
+
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.perros{
+    padding-right: 15rem;
+}
+
+.titulo{
+    color: rgb(89, 218, 3);
+    font-size: 3.5rem;
+}
+
+.subtitulo{
+    color:  rgb(89, 218, 3);
+    font-size: 2.5rem;
+}
+
+.info{
+    color: rgb(0, 195, 255);
+    font-size: 1.5rem;
+}
+
+.boton1{
+    display: flex;
+    justify-content: center;
+    font-size: 2.4rem;
+    color: white;
+    font-family: 'HolyFat';
+    background-color:  rgb(36, 196, 0);
+    border-radius: 50%;
+    padding: 6.5%;
+    
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+.sect{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    height: 15rem;
+}
+
+.separacion{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.obje{
+    display:flex ;
+    justify-content: center;
+    color: rgb(36, 196, 0);
+    font-size: 3rem ;
+    font-family: "Holyfat";
+    background-color: rgba(255, 255, 255, 0.733);
+    border-radius: 2rem;
+    
+}
+
+
+.parrafo{
+    background-color:  rgba(36, 196, 0, 0.643);
+    color: white;
+    font-size: 1.5rem;
+    align-items: 2rem;
+    padding: 1rem;
+}
+
+
+.mp4{
+    width: 20rem;
+}
+
+
+.separacion2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.tema{
+    display:flex ;
+    justify-content: center;
+    color: rgb(36, 196, 0);
+    font-size: 3rem ;
+    font-family: "Holyfat";
+    background-color: rgba(255, 255, 255, 0.733);
+    border-radius: 2rem;
+}
+
+
+.parrafo1{
+    background-color:  rgba(36, 196, 0, 0.643);
+    color: white;
+    font-size: 1.5rem;
+    align-items: 2rem;
+    padding: 1rem;
+}
+
+
+.gato{
+    width: 19rem;
+}
+
+.beneficios{
+    height: 25rem;
+}
+
+
+.benefi{
+    display:flex ;
+    justify-content: center;
+    color: rgb(36, 196, 0);
+    font-size: 3rem ;
+    font-family: "Holyfat";
+    background-color: rgba(255, 255, 255, 0.733);
+    border-radius: 2rem;
+    
+}
+
+
+.temas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.733);
+    padding: 2rem;
+}
+
+
+.icono{
+    width: 2.5rem;
+}
+
+.logo2{
+    width: 15rem;
+}
+
+
+
